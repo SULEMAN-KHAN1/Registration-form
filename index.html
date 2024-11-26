@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./css styling/style.css">
+</head>
+<body>
+    <div class="selection">
+        <fieldset>
+     <legend>  Name and Address </legend>
+     <br>
+
+        <form action="">
+                   
+            <label class="left" for="civiCRM">Do you use CiviCRM?</label>
+            <div class="right">
+            <input type="radio" id="yes" name="civiCRM" action="yes">
+            <label for="yes">YES</label>
+            <input type="radio" id="no" name="civiCRM" action="No">
+            <label for="No">No</label>
+            <a href="">( Unselect )</a>
+        </div>
+    
+            
+        <label class="left" for="experience">How long have you been using CiviCRM?</label>
+            <div class="right">
+            <select class="backgroundcolor" name="experience" id="experience">
+                <option value="">- select -</option>
+                <option value="less2years">Less than 2 Years</option>
+                <option value="2yearsplus">2Years Plus</option>
+                </select>
+            </div>
+            
+            <label class="left " for="cmsname">Which CMS do yoou use?</label>
+            <div class="right">
+            <select class="backgroundcolor" name="cmsname" id="cmsname">
+                <option value="">- Select -</option>
+                <option value="wordpress">wordpress</option>
+            </select>
+        </div>
+    
+                    <label class="left" for="skills">Your skill set</label>
+                <div class="right">
+                <select class="backgroundcolor" name="skills" id="skills">
+                    <option value="">- Select - </option>
+                     <option value="html">html,css,javascript</option>
+                </select>
+                    </div>
+    
+
+                <label class="left" for="email">Email:</label><br>
+                <div class="right">
+                <input type="email" id="email" name="email" required></div>
+           
+                <label class="left" for="firstname">First Name *</label>
+                <div class="right"><input type="text"></div>
+           
+                <label class="left" for="lastname">Last Name *</label>
+           <div class="right"> 
+            <input type="text">  
+            <br>
+            <p>First and Last name will be shared with other visitors to the site.</p>
+        </div>
+
+            <div class="left">
+                <label for="street">Street Address (Home)</label></div>
+            <div class="right">  <input  type="text" name="street" id="street"></div>  
+            
+            <div class="left">
+                <label for="city ">City (Home)</label>
+                <div class="right"><input type="text" name="city" id="city">
+                </div>
+
+                <div class="left"><label for="country" >Country (Home)</label>
+                </div>
+                <div class="right">
+                    <select class="backgroundcolor" name="country" id="country">
+                        <option value="">United states</option>
+                    </select>
+                    <br>
+                        Your state/province and country will be shared with others so folks can find other in their communtiy.
+                </div>
+            
+          <div class="left"> 
+             <label for="state">State (Home)</label></div> 
+                <div class="right">
+                    <select class="backgroundcolor" name="state" id="state">
+                        <option  value="">select</option>
+                        <option value="Newyork">Newyork</option>
+                    </select>
+                </div>
+
+
+
+
+
+
+            </div>
+              </fieldset>
+         </div>
+
+            <div class="buttons ">
+                <button class="backgroundcolor" type="save">save</button>
+                <button class="backgroundcolor">cancel</button>
+                </div>
+    
+</body>
+</html>
